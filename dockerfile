@@ -1,3 +1,2 @@
-From python
-RUN python3 -m pip install colorama
-CMD ["python3", "start.py"]
+From python:latest
+CMD ["python3", "-m", "pip", "install", "colorama"]
