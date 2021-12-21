@@ -1,0 +1,1 @@
+$ - building your docker image to easy runing .
