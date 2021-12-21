@@ -9,4 +9,4 @@ c = input(Fore.GREEN+' [ + ] '+Fore.WHITE+'Please Enter your comment for commit 
 add = os.system('git add -A')
 comment = os.system(f'git commit -m "{ c }"')
 print("\n")
-print(Fore.GREEN+f" Commited by this commit ==> {comment.bit_length} ")
+print(Fore.GREEN+f" Commited by this commit ==> {comment} ")
