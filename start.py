@@ -11,4 +11,4 @@ comment = os.system(f'git commit -m "{ c }"')
 print("\n")
 status = os.system('git status')
 
-print(Fore.GREEN+"Commited by this commit ==> "+comment)
+print(Fore.GREEN+f"Commited by this commit ==> {comment} ")
